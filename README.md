@@ -18,7 +18,7 @@ The **Job Search App** is a platform that allows users to search for jobs releva
 - **Database:** MongoDB (Mongoose)
 - **Authentication:** JWT (JSON Web Token)
 - **Validation:** Joi
-- **File Uploads:** Multer & Cloudinary
+- **File Uploads:** Multer
 - **Security:** Bcrypt for password hashing
 
 ## Installation & Setup
@@ -51,9 +51,6 @@ Create a `.env` file in the root directory and add the following:
 baseUrl=http://localhost:3000/
 JWT_SECRET=your_secret_key
 MONGO_URI=your_mongodb_connection_string
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 ### Start the Server
